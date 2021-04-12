@@ -3,3 +3,6 @@ version: '3.9'
 services:
   job1:
     build: ./jobs/job1
+
+  job2:
+    build: ./jobs/job2
