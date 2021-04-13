@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  job1:
+    volumes:
+    - ./jobs/job1:/app
+
+  job2:
+    volumes:
+      - ./jobs/job2:/app
